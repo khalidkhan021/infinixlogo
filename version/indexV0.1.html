@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Infinixlogo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- icon -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;800&display=swap" rel="stylesheet">
+    <!-- <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  /> -->
+
+    <!-- custom Css  -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="card.css">
+    <link rel="stylesheet" href="loginCard.css">
+    <link rel="stylesheet" href="mediaQuery.css">
+    <!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="assests/OwlCarousel/assets/owl.carousel.min.css">
+    <!-- <link rel="stylesheet" href="assets/OwlCarousel/assets/owl.theme.default.min.css"> -->
+    <!-- Owl javascript/jquery -->
+    <script src="assests/OwlCarousel/docs/assets/vendors/jquery.min.js"></script>
+    <script src="assests/OwlCarousel/dist/owl.carousel.min.js"></script>
+    <!-- bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+
+
+</head>
+
+<style>
+    .bg-overlay {
+        /* background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7));        */
+        background-image: url("./img/banner_home.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        color: #fff;
+        height: 850px;
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    .bg-Image {
+        background-image: url("./img/testimonial-banner.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        color: #fff;
+        height: 500px;
+        width: 100%;
+        padding-top: 110px;
+    }
+
+    .background_layer {
+        background-image: url("./img/background_layer.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        color: #fff;
+        height: 600px;
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    .background_layerOne {
+        background-image: url("./img/background_layer.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        color: #fff;
+        height: 600px;
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    .background_layerTwo {
+        background-image: url("./img/layer.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        color: #fff;
+        height: 700px;
+        width: 100%;
+        /* padding-top: 50px; */
+    }
+
+    .bg_layer {
+        background-image: url("./img/price_layer.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        color: #fff;
+        height: 10;
+        width: 58%;
+        /* padding-top: 0px; */
+    }
+
+    .padder {
+        padding-left: 5rem;
+    }
+
+    .padderX {
+        padding-left: 2rem;
+    }
+
+
+    .padder1 {
+        margin-top: 10rem
+    }
+
+    .padder2 {
+        margin-top: 5rem
+    }
+
+    .padder3 {
+        margin-left: 1rem
+    }
+
+    .pd-B {
+        padding-bottom: 5rem;
+    }
+
+    .pd-T {
+        padding-top: 5rem
+    }
+
+    .pd-T1 {
+        padding-top: 15rem
+    }
+
+    .m-T {
+        margin-top: 5rem
+    }
+
+    .txt0 {
+        text-transform: capitalize;
+        font-size: 40px;
+        /* font-weight: bold; */
+    }
+    .txt {
+        text-transform: capitalize;
+        font-weight: bold;
+        font-size: 50px;
+        letter-spacing: 2px;
+
+    }
+    .txt {
+        text-transform: capitalize;
+        font-weight: bold;
+        font-size: 50px;
+        letter-spacing: 2px;
+
+    }
+
+
+    .txt1 {
+        color: #313340;
+        font-size: 50px;
+        font-weight: 700 !important;
+    }
+
+    .txt2 {
+        color: #2e2e32;
+        font-size: 16px;
+        /* font-weight: 600 !important; */
+    }
+
+    .txt3 {
+        font-size: 35px;
+        /* font-weight: bold; */
+    }
+
+    .txt4 {
+        color: black;
+        font-size: 25px;
+        /* font-weight: 800 !important; */
+    }
+
+    .txt5 {
+        color: #1f2fea;
+        font-size: 20px;
+        /* font-weight: 600 !important; */
+        padding-bottom: 0% !important;
+    }
+
+    .txt6 {
+        font-size: 26px;
+        /* font-weight: bold; */
+        font-weight: 600 !important;
+        padding-top: 3%;
+    }
+
+    .txt7 {
+        color: rgb(255, 255, 255) !important;
+        font-size: 16px;
+    }
+
+    .txt8 {
+        color: #ffffff;
+        font-size: 35px;
+        /* font-weight: 600 !important; */
+    }
+
+    .txtV1 {
+        color: #424052;
+        font-size: 30px;
+        font-weight: bold !important;
+    }
+
+    .txtV2 {
+        color: #424052;
+        font-size: 16px;
+        /* font-weight: 600 !important; */
+    }
+
+
+    .imageStarter .imageStarter2 {
+        width: 80%;
+    }
+
+    .imageWidth {
+        width: 20%
+    }
+
+    .imageWidth1 {
+        width: 10%
+    }
+
+    .owl-carousel .owl-item img {
+        width: 30%;
+    }
+
+    .sticky {
+        position: sticky;
+        width: 100%;
+        height: 5rem;
+        border-bottom-left-radius: 10%;
+        border-bottom-right-radius: 10%;
+    }
+
+    .square_btn {
+        display: inline-block;
+        padding: 11px 28px;
+        border-radius: 25px;
+        text-decoration: none;
+        background-color: white !important;
+        transition: .4s;
+    }
+
+
+
+    .square_btn:hover {
+        color: white;
+        background-image: -webkit-linear-gradient(45deg, #8f1d5f 0%, #2d0e68 100%);
+        background-image: linear-gradient(45deg, #8f1d5f 0%, #2d0e68 100%);
+        text-decoration: none;
+    }
+
+    .square_btn2 {
+        display: inline-block;
+        padding: 11px 28px;
+        text-decoration: none;
+        color: #f7f7f7;
+        border: solid 2px #eeeeee;
+        border-radius: 25px;
+        transition: .4s;
+    }
+
+    .square_btn2:hover {
+        background: #2d0e68;
+        color: white;
+        text-decoration: none;
+    }
+
+    .square_btn3 {
+        display: inline-block;
+        padding: 11px 28px;
+        border-radius: 25px;
+        text-decoration: none;
+        color: #FFF;
+        background-image: -webkit-linear-gradient(45deg, #DE1380 0%, #6F32c4 100%);
+        background-image: linear-gradient(45deg, #DE1380 0%, #6F32c4 100%);
+        transition: .4s;
+    }
+
+    .square_btn3:hover {
+        color: #FFF;
+        background-image: -webkit-linear-gradient(45deg, #DE1380 0%, #6F32c4 100%);
+        background-image: linear-gradient(45deg, #DE1380 0%, #6F32c4 100%);
+        text-decoration: none;
+    }
+
+    .square_btn4 {
+        display: inline-block;
+        padding: 11px 28px;
+        border-radius: 25px;
+        text-decoration: none;
+        color: #FFF;
+    }
+
+    .square_btn4:hover {
+        color: #FFF;
+        text-decoration: none;
+    }
+
+    .fabUser {
+        font-size: 6rem;
+        margin-top: 10px
+    }
+
+    .con-F {
+        background-color: white;
+        margin-top: 5rem;
+        height: 55rem;
+        /* padding: 0 0 5rem 3rem; */
+    }
+
+    .mTop {
+        margin-top: -15rem;
+    }
+</style>
+
+
+<body>
+    ​
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="navbar-left logo1">
+                    <img class="logo" src="img/infinix.png">
+                </div>
+
+            </div>
+            <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class=""><a href="https://infinixlogo.com/why-choose-us">WHY CHOOSE US</a></li>
+                    <li class=""><a href="https://infinixlogo.com/services">SERVICES</a></li>
+                    <li class=""><a href="https://infinixlogo.com/portfolio">PORTFOLIO</a></li>
+                    <li class=""><a href="https://infinixlogo.com/packages">PACKAGES</a></li>
+                    <li class=""><a href="https://infinixlogo.com/about">ABOUT US</a></li>
+                    <li class=""><a href="https://infinixlogo.com/contact">CONTACT US </a></li>
+                </ul>
+            </div>
+
+        </div>
+        </div>
+    </nav>
+
+
+
+    <div class="container-fluid bg-overlay">
+        <div class="row-sm-6 padder">
+            <div class="row-sm-3">
+                <div class="row-sm-3">
+                    <h1 class="txt pd-T1">Logo and graphic<br>designing</h1>
+                    <div class="row-sm-3 padder2">
+                        <img src="img/start-from-price.png" width="20%" class="image-responive" />
+                        <p class="txt7">Get a unique design on your requirements.<br>
+                            Let's make your business first impression remarkable.
+                        </p>
+                    </div>
+                    <div class="row-sm-3 pd-T">
+                        <a href="#" class="square_btn txt2 ">let's talks</a>
+                        <a href="#" class="square_btn2 txt2 padder3">Order Now</a>
+                    </div>
+                    <div class="col-sm-6 pd-T">
+                        <img src="img/1.png" class="imageWidth" alt="logo Image">
+                        <img src="img/3.png" class="imageWidth1" alt="logo Image">
+                        <img src="img/2.png" class="imageWidth" alt="logo Image">
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-sm-3 mTop">
+                <div class=" column login-form">
+                    <form action="/" method="post">
+                        <div class="avatar text-center">
+                            <i class='fas fa-user l-textcolor fabUser'></i>
+                        </div>
+                        <h2 class="txt1 text-center color">Login /SignUp</h2>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="username" placeholder="Username"
+                                required="required">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" name="password" placeholder="Password"
+                                required="required">
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn  btn-primary  btn-block l-gcolor">Sign in</button>
+                        </div>
+                        <div class="clearfix text-center padder">
+                            <a href="#" class="float-right">Forgot Password?</a>
+                        </div>
+                        <div class="bottom-action clearfix text-center color">
+                            <p class="txt5">Signup Now and </p>
+                            <p class="txt2">and get 50% Off </p>
+                        </div>
+                    </form>
+                    <div class="sticky l-gcolor text-center">
+                        <p class="txt6">SignUp</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid pd-B pd-T">
+        <div class="row">
+            <div>
+                <h3 class="text-center l-textcolor txt3">WE OFFERS</h3>
+            </div>
+        </div>
+
+        <div class="item">
+            ​<div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img src="img/slider/1.png" alt="Image">
+                </div>
+                <!-- <div class="item pd-T">
+                    <img src="img/slider/2.png" alt="Image">
+                </div> -->
+                <div class="item">
+                    <img src="img/slider/3.png" alt="Image">
+                </div>
+                <div class="item">
+                    <img src="img/slider/4.png" alt="Image">
+                </div>
+                <div class="item">
+                    <img src="img/slider/5.png" alt="Image">
+                </div>
+                <div class="item">
+                    <img src="img/slider/6.png" alt="Image">
+                </div>
+                <div class="item">
+                    <img src="img/slider/7.png" alt="Image">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class=" text-center pd-B">
+        <a href="#" class="square_btn3">Order Now</a>
+    </div>
+
+    </div>
+
+    <div class="container-fluid background_layer">
+        <div class="row">
+            <div class="col-sm-6 padder">
+                <p class="txt1">Logo</p>
+                <p class="txt2">At Infinixlogo, we believe in complete customer satisfaction according to their
+                    requirements and we
+                    provide complete customer logo designs with our professional designing skills, we at Infinixlogo
+                    make 100% tailor-made, memorable, timeless, and highly complex to simple, minimalist logo designs.
+                    Our graphic designers are handpicked creative geeks who will not only achieve all your requirements
+                    but also will add their creative touch in the design to make it remarkable and noticeable for your
+                    customer base. We design logos for letterheads, brochures, envelopes, banners, business cards,
+                    e-books, magazines and signage,
+
+                </p>
+            </div>
+            <div class="col-xs-6">
+                <img src="img/logo.png" class="img-responsive" class="imageStarter2" alt="logo Image">
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid pd-T">
+        <div class="row">
+            <div class="row-sm-3">
+                <h3 class="text-center l-textcolor txt3">Portfolio</h3>
+                <div class="text-center">
+                    <p class="text-center color txt2">Our portfolio speaks for itself - It's no wonder why our clients
+                        love us! Feel free to browse</p>
+                    <p class="w-50 p-3 text-center color txtV2">our design gallery for customize and unique work done by
+                        us which has been
+                        completed and <br> delivered as per our client’s requirement.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-3 text-center pd-B">
+        <div class="row">
+            <div class="row-sm-9">
+                <div class="spotlight-group">
+                    <a class="spotlight" href="img/portfolio/Aquaponic-view.jpg" data-description="Description">
+                        <img src="img/portfolio/Aquaponic.jpg">
+                    </a>
+                    <a class="spotlight" href="img/portfolio/Bizzix online courses-view.jpg">
+                        <img src="img/portfolio/Bizzix online courses.jpg">
+                    </a>
+                    <a class="spotlight" href="img/portfolio/Finanza-view.jpg" data-description="CSSSCRIPT.COM">
+                        <img src="img/portfolio/Finanza.jpg">
+                    </a>
+                    <a class="spotlight" href="img/portfolio/Enforcer-view.jpg" data-description="Description">
+                        <img src="img/portfolio/Enforcer.jpg">
+                    </a>
+                    <a class="spotlight" href="img/portfolio/Businex-view.jpg">
+                        <img src="img/portfolio/Businex.jpg">
+                    </a>
+                    <a class="spotlight" href="img/portfolio/Cherry cap-view.jpg" data-description="CSSSCRIPT.COM">
+                        <img src="img/portfolio/Cherry cap.jpg">
+                    </a>
+                    <a class="spotlight" href="img/portfolio/Defender construction-view.jpg"
+                        data-description="Description">
+                        <img src="img/portfolio/Defender construction.jpg">
+                    </a>
+                </div>
+                <a href="#" class="square_btn3">Veiw More</a>
+            </div>
+        </div>
+    </div>
+    <div class=" container-fluid background_layerOne pd-B pd-T">
+        <div class="row">
+            <div class="col-sm-5 text-center">
+                <img src="img/desiging.png" class="img-responsive imageStarter" alt="logo Image">
+            </div>
+            <div class="col-sm-6 padder">
+                <p class="txt1 animate__animated animate__fadeIn">Designing</p>
+                <p class="txt2">We turn your idea into reality, designing custom logos from
+                    scratch. Our logo design services can
+                    help you create emotions and associations for customers. In order to make a custom logo design,
+                    our
+                    graphic designers follow a systematic designing process that helps them in smooth functioning
+                    during
+                    the entire procedure. Our business logo designs are versatile that look great on various
+                    channels
+                    including billboards, business cards, website, t-shirts as well as social media
+                </p>
+                <p class="txt2">
+                    <strong>
+                        There's no limit to what you can get designed at Infinixlogo. Whether you're looking for a
+                        spectacular new logo or some stunning flyers, the talented global community of designers at
+                        Infinixlogo can make it happen.
+                    </strong>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container pd-B pd-T">
+        <div class="row">
+            <div>
+                <h3 class="text-center l-textcolor txt3">PRICING PLANS THAT WORK FOR YOU!</h3>
+                <p class="text-center txt2">Infinix Logo is offering a wide range of competitive logo design</p>
+                <p class="text-center txt2">packages to businesses in London, UK</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="pd-B">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+
+                    <div class="pricingTable ">
+                        <div class="pricingTable-header bg_layer">
+                            <h3 class="title">Basic</h3>
+                            <div class="price-value">$299</div>
+                        </div>
+                        <ul class="pricing-content">
+                            <li>3-5 Page Web Design </li>
+                            <li>2-3 Stock Images & Banner </li>
+                            <li>Contact US/Query Form </li>
+                            <li>Free Logo Design </li>
+                            <li>100% Mobile Responsive </li>
+                            <li>100% SEO optimized </li>
+                            <li>100% Satisfaction Guaranteed </li>
+                        </ul>
+                        <div class="pricingTable-signup">
+                            <a href="#" class="bg_layer square_btn4">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="pricingTable ">
+                        <div class="pricingTable-header  bg_layer">
+                            <h3 class="title">Standard</h3>
+                            <div class="price-value">$599</div>
+                        </div>
+                        <ul class="pricing-content">
+                            <li>5-7 Page Web Design</li>
+                            <li>4-5 Stock Images & Banner</li>
+                            <li>JQuery Slider Banner</li>
+                            <li>Content Management System</li>
+                            <li>Free Logo & Stationary Design</li>
+                            <li>100% Mobile Responsive Design</li>
+                            <li>Complete W3C Certified HTML</li>
+                        </ul>
+                        <div class="pricingTable-signup">
+                            <a href="#" class="bg_layer square_btn4">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="pricingTable ">
+                        <div class="pricingTable-header  bg_layer">
+                            <h3 class="title">Premium</h3>
+                            <div class="price-value">$999</div>
+                        </div>
+                        <ul class="pricing-content">
+                            <li>Unlimited Web Pages</li>
+                            <li>Content Management System</li>
+                            <li>100% Custom Designs</li>-
+                            <li>No Templates</li>
+                            <li>FREE Logo & Brand Identity</li>
+                            <li>Design</li>
+                            <li>Complete ecommerce</li>
+                            <li>workflow integrated</li>
+                            <li>Payment Method Integration</li>
+                            <li>Complete W3C Certified HTML</li>
+                            <li>100% Satisfaction Guaranteed</li>
+                        </ul>
+                        <div class="pricingTable-signup">
+                            <a href="#" class="bg_layer square_btn4">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container background_layerTwo pd-B">
+        <div class="row">
+            <div class="col-sm-4">
+
+                <div class="container-fluid con-F">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <h2 class="txt0 l-textcolor">Contact Us Form</h2>
+                        </div>
+                    </div>
+                    <div class="row-sm-6">
+
+                        <div class="col-sm-4">
+                            <form id="contact-form" class="former" action="#" method="POST" role="form">
+                                <div class="form-grouper">
+                                    <label class="form-labeler " for="name">* Name</label>
+                                    <input type="text" class="form-controler" id="name" name="name" tabindex="1"
+                                        required>
+                                </div>
+                                <div class="form-grouper">
+                                    <label class="form-labeler" for="email">* Email</label>
+                                    <input type="email" class="form-controler" id="email" name="email" tabindex="2"
+                                        required>
+                                </div>
+                                <div class="form-grouper">
+                                    <label class="form-labeler" for="subject">* Phone</label>
+                                    <input type="text" class="form-controler" id="subject" name="subject" tabindex="3">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-labeler" for="message">* Message</label>
+                                    <textarea rows="3" cols="22" name="message" class="form-controler" id="message"
+                                        tabindex="4" required></textarea>
+                                </div>
+                                <div class="padder pd-T">
+                                    <a href="#" class="square_btn3 padderY">Submit</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-7 color padder1">
+                <p class="txtV1">We would love to hear about your project and get the fire stated !</p>
+                <p class="txtV2">Technical support, business consultations or general inquiries
+                    Our customer service teams are ready to serve you day in, day
+                    out, with 24/7 availability..</p>
+                <p><i class="fas fa-phone l-textcolor"></i><a href="#" class="padderX">+44 7418 351 986</a></p>
+                <p><i class="fas fa fa-envelope l-textcolor"></i><a class="padderX" href="#">info@infinixlogo.com</a>
+                </p>
+
+                <a href="#" class="square_btn3 padderL">Chat Now</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid pd-B  m-T">
+        <div class="row">
+            <div>
+                <h3 class="text-center  l-textcolor txt3">Make Your Move in the Right Direction</h3>
+                <p class="text-center txtV2">Book Your Project Now!</p>
+                <div class="text-center">
+                    <a href="#" class="square_btn3">Start Project</a>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid bg-Image">
+        <div class="row-sm-6 text-center">
+            <div class="row-sm-6">
+                <div class="row-sm-3">
+                    <div class="">
+                        <h3 class="txt">" Loremadd</h3>
+                    </div>
+                    <p class="txt3">aasghabsdsbfjbfajfvdfbsfbdfdbfbd<br>fasbdfmbsfjvdfbdfvedhsdksndasnd
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-lg-3 footer-about wow fadeInUp">
+                        <img class="logo-footer" src="./img/infinix.png" width="100%" alt="logo-footer">
+                        <p>
+                            <a href="#"><i class="fab fa-facebook l-textcolor padder3"></i></a>
+                            <a href="#"><i class="fab fa-twitter l-textcolor padder3"></i></a>
+                            <a href="#"><i class="fab fa-whatsapp l-textcolor padder3"></i></a>
+                            <a href="#"><i class="fab fa-instagram l-textcolor padder3"></i></a>
+                        </p>
+                    </div>
+                    <div class="col-md-2 col-lg-2 footer-social wow fadeInUp">
+                        <p class="txt4">Quick links</p>
+                        <p><a href="#">PORTFOLIO</a> </p>
+                        <p> <a href="#">ABOUT US</a> </p>
+                        <p><a href="#">CONTACT US</a> </p>
+                        <p><a href="#">0312784612</a></p>
+                    </div>
+                    <div class="col-md-3 col-lg-3 offset-lg-1 footer-contact wow fadeInDown">
+                        <p class="txt4">Contact</p>
+                        <p><i class="fa fa-location-arrow l-textcolor"></i> 2, Sanders Parade, Greyhound Ln,
+                            Streatham,
+                            London,
+                            England, SW16 5NL.</p>
+                        <p><i class="fas fa fa-link l-textcolor"></i> <a href="#">www.infinixlogo.com</a></p>
+                        <p><i class="fas fa-phone l-textcolor"></i> Phone: +44 7418 351 9867</p>
+                        <p><i class="fas fa fa-envelope l-textcolor"></i> Email: <a href="#">info@infinixlogo.com</a>
+                        </p>
+                    </div>
+                    <div class="col-md-3 col-lg-3 offset-lg-1 footer-contact wow fadeInDown">
+                        <p class="txt4">Ways to pays</p>
+                        <img src="./img/ways-to-pays.jpg" alt="ways-to-pay">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 footer-copyright">
+                        <p>&copy;copy right<a href="https://azmind.com">infinix log</a></p>
+                    </div>
+                    <div class="col-md-5 footer-copyright">
+                        <p> privacy and policy <a href="https://azmind.com">infinix log</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+</body>
+<script src="assests/spotlight/dist/spotlight.bundle.js"></script>
+<script>
+    //  AOS.init({
+    //   duration: 1200,
+    // })
+    var owl = $('.owl-carousel');
+    owl.owlCarousel({
+        items: 4,
+        loop: true,
+        margin: 10,
+        autoplay: true,
+        autoplayTimeout: 2000,
+        autoplayHoverPause: true
+    });
+    $(document).ready(function () {
+
+        $(".owl-carouselTwo").owlCarousel({
+            autoplay: true,
+            autoplayTimeout: 3000,
+            autoplayHoverPause: true,
+            items: 1,
+            navigation: true,
+            loop: true,
+            smartSpeed: 900
+        });
+
+    });
+</script>
+
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+
+
+
+</html>

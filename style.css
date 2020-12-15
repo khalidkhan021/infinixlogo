@@ -1,0 +1,193 @@
+    /* Remove the navbar's default margin-bottom and rounded borders */
+    *{
+        font-family: 'Poppins', sans-serif;
+        
+    }
+    .navbar {
+        border: 0;
+        /* z-index: 9999; */
+        letter-spacing: 0px;
+        background-color: white;
+     
+
+    }
+    /* .container-fluid{
+        max-width: 130% !important;
+    } */
+
+    .logo1 {
+        display: block;
+        height: auto;
+        width: 30rem;
+    } 
+     .logo {
+        display: block;
+        height: auto;
+        width: 28rem;
+        padding-top: 10px;
+        padding-left:10rem ;
+    }
+
+    .navbar-brand>img {
+        height: 100%;
+        padding: 15px;
+        width: auto;
+    }
+
+    .navbar .nav>li>a {
+        line-height: 60px;
+    }
+
+    .navbar-header h1 {
+        letter-spacing: 1px;
+        color: black !important;
+        font-family: 'Lobster Two', cursive;
+    }
+
+    .navbar li a,.navbar {
+        color: rgb(48, 47, 47) !important;
+        font-size: 18px  !important;
+        /* font-weight:bold ; */
+        transition: all 0.6s 0s;
+    }
+
+    .navbar-nav li a:hover,
+    .navbar-nav li.active a {
+        color: rgb(76, 0, 255) !important;
+    }
+
+    .navbar-toggle {
+        position: relative;
+        float: right;
+        padding: 9px 10px;
+        margin-right: 15px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        background-color: #6F32c4 !important;
+        background-image: none;
+        border: none !important;
+        border-radius: 4px;
+    }
+
+    .navbar-inverse .navbar-collapse {
+        border-color: white !important
+    }
+
+    /*the footer */
+
+    .footer-top {
+        padding: 60px 0;
+        text-align: left;
+        color: rgb(0, 0, 0);
+    }
+
+    .footer-top h3 {
+        padding-bottom: 10px;
+        color: rgb(0, 0, 0);
+    }
+
+    .footer-about img.logo-footer {
+        max-width: 20rem; 
+        margin-top: 0;
+        margin-bottom: 18px;
+    }
+
+    .footer-about p a {
+        color: rgb(0, 0, 0);
+     
+    }
+
+    .footer-about p a:hover, .footer-about p a:focus {
+        color: #fff;
+     
+    }
+
+    .footer-contact p {
+        word-wrap: break-word;
+    }
+
+    .footer-contact i {
+        padding-right: 10px;
+        font-size: 18px;
+        color: #666;
+    }
+
+    .footer-contact p a {
+        color: #000000;
+    }
+
+    .footer-contact p a:hover, .footer-contact p a:focus {
+        color: #fff;
+    }
+
+    .footer-social a {
+        display: inline-block;
+        margin-right: 20px;
+        margin-bottom: 8px;
+        color: #777;
+        border: 0;
+    }
+
+    .footer-social a:hover, .footer-social a:focus {
+        color: #aaa;
+        border: 0;
+    }
+
+    .footer-social i {
+        font-size: 24px;
+        vertical-align: middle;
+    }
+
+    .footer-bottom {
+        padding: 15px 0;
+        background: #ebebeb;
+        text-align: left;
+        color: rgb(3, 3, 3);
+    }
+
+    .footer-copyright p {
+        margin: 0;
+        padding: 0.5rem 0;
+    }
+
+    .footer-copyright a {
+        color: rgb(3, 3, 3);
+        border: 0;
+    }
+
+    .footer-copyright a:hover, .footer-copyright a:focus {
+        color: rgb(3, 3, 3);
+        border: 0;
+    }
+
+    textarea {
+        resize: none;
+    }
+
+    .color{
+        font-size: 20px;
+        color:black
+    }
+   .l-gcolor{
+    background: linear-gradient(#DE1380, #6F32c4);
+   }
+   .l-textcolor{
+    font-size: 25px;
+    background: -webkit-linear-gradient(#DE1380, #6F32c4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+   }
+
+   .l-gcolorRL{
+    background: linear-gradient(to right,#DE1380, #6F32c4);
+    background: -webkit-linear-gradient(to right,#DE1380, #6F32c4);
+   }
+   .l-textcolorRL{
+    font-size: 25px;
+    background: -webkit-linear-gradient(to right,#DE1380, #6F32c4);
+    background: linear-gradient(to right,#DE1380, #6F32c4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+   }

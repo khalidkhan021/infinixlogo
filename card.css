@@ -1,0 +1,170 @@
+.pricingTable {
+    background: #fff;
+    font-family: 'Poppins','Sora', sans-serif;
+    text-align: center;
+    padding: 0 0 15px;
+    margin-top: 25px;
+    border: 1px solid #F3F2F8;
+    box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.1), -10px 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.pricingTable .pricingTable-header {
+    color: #fff;
+    margin: -25px 0 25px;
+    border-radius: 0 0px 5px 5px; 
+    display: inline-block;
+    position: relative;
+}
+
+.pricingTable .pricingTable-header:before {
+    content: '';
+    background: linear-gradient(to right bottom, transparent 45%, #c0000cd4  0%);
+    height: 25px;
+    width: 15px;
+    position: absolute;
+    left: -15px;
+    top: 0;
+}
+
+.pricingTable .title {
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    /* margin: 0 0 25px; */
+}
+
+.pricingTable .price-value {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+.pricingTable .pricingTable-signup a {
+    font-size: 16px;
+    /* font-weight: 600; */
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+}
+
+.pricingTable .pricingTable-signup a:hover {
+    text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.3);
+}
+/* For custom scroll */
+.pricing-content::-webkit-scrollbar-track
+{
+	/* border: 1px solid rgb(230, 230, 230); */
+	background-color: #F5F5F5;
+}
+
+.pricing-content::-webkit-scrollbar
+{
+	width: 3px;
+	background-color: #F5F5F5;
+}
+
+.pricing-content::-webkit-scrollbar-thumb
+{
+    /* background: -webkit-linear-gradient(#DE1380, #6F32c4);	
+    background: linear-gradient(#DE1380, #6F32c4); */
+    background-color: #bdbdbd;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    .pricingTable .pricing-content li {
+        color: #000000;
+        font-size: 16px;
+        line-height: 18px  !important;
+        text-transform: capitalize;
+        padding: 10px 20px 10px;
+        border-bottom: 1px solid #cddada;
+        position: relative;
+    }
+    .pricingTable .price-value  {
+        font-size: 30px !important;;
+        font-weight: 700;
+        line-height: 80px;
+    }
+    .pricingTable .title {
+        font-size: 20px !important;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin: 0 0 25px;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 990px) {
+    .pricingTable {
+        margin-bottom: 50px;
+    }
+    .pricingTable {
+        background: #fff;
+        font-family: 'Sora', sans-serif;
+        text-align: center;
+        padding: 0 0 15px;
+        margin-top: 25px;
+        box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.1), -10px 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .pricingTable .pricingTable-header {
+        color: #fff;
+        margin: -25px 0 25px;
+        display: inline-block;
+        position: relative;
+    }
+    .pricingTable .pricingTable-header:before {
+        content: '';
+        background: linear-gradient(to right bottom, transparent 45%, #c0000cd4  0%);
+        height: 25px;
+        width: 15px;
+        position: absolute;
+        left: -15px;
+        top: 0;
+    }
+    .pricingTable .title {
+        font-size: 25px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin: 0 0 25px;
+    }
+    .pricingTable .price-value {
+        font-size: 80px;
+        font-weight: 700;
+        line-height: 80px;
+    }
+    .pricingTable .pricingTable-signup a:hover {
+        text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.3);
+    }
+
+}
+
+.pricingTable .pricing-content {
+    color: #505050;
+    text-align: center;
+    padding: 0;
+    margin: 0 auto 20px;
+    list-style: none;
+    display: inline-block;
+    height: 28rem;
+    overflow-y: scroll;
+}
+
+.pricingTable .pricing-content li {
+    color: #000000;
+    font-size: 16px;
+    /* font-weight: 600; */
+    line-height: 18px;
+    text-transform: capitalize;
+    /* letter-spacing: 1px; */
+    padding: 10px 20px 10px;
+    border-bottom: 1px solid #cddada;
+    position: relative;
+}
+
+@media only screen and (max-width: 990px) {
+    .pricingTable {
+        margin-bottom: 50px;
+    }
+}

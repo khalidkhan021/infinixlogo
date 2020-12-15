@@ -1,0 +1,331 @@
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    .navbar li a, .navbar {
+        color: rgb(48, 47, 47) !important;
+        font-size: 15px !important;
+        transition: all 0.6s 0s;
+    }
+    .logo {
+        display: block;
+        height: auto;
+        width: 21rem;
+        padding-top: 6px;
+        padding-left: 2rem;
+    }
+    /* .navbar-toggle {
+        margin-right: 6rem;
+    } */
+    .max-W {
+        width: 130% !important;
+    }
+    .login-form {
+        width: 290px;
+        height: 470px;
+    }
+    /* .login-form {
+        margin-top: 18rem !important; 
+         padding: 73px 0 0px !important; 
+         padding: 64px 0 0px !important;
+    } */
+    .form-control {
+        width: 230px;
+        margin-left: 3rem;
+    }
+    .fabUser {
+        font-size: 8rem !important;
+    }
+    .sticky {
+        margin-top: -1rem !important;
+    }
+    .login-form .btn, .login-form .btn:active {
+        width: 230px;
+        margin-left: 3rem;
+    }
+    .login-form .avatar {
+        width: 120px;
+        height: 120px;
+    }
+    .padderX1 {
+        padding-left: 1rem !important;
+    }
+    /* .pd-T1 {
+        margin-right: 57px !important;
+    } */
+    .padder {
+        padding-left: 2rem !important;
+    }
+    .padder1 {
+        margin-top: 2rem !important;
+    }
+    .padder2 {
+        margin-top: 0rem !important;
+    }
+    .mPadder {
+        margin-top: 20rem
+    }
+    .pd-T2 {
+        margin-top: 0rem !important;
+    }
+    /* .padderY{
+        margin-top:-10rem !important
+    } */
+
+    .txt {
+        font-size: 30px !important;
+    }
+    .bg-overlay {
+        padding-top: 10px !important;
+        height: 1160px !important;
+        width: 130% !important;
+    }
+    .txt2 {
+        color: black;
+        font-size: 15px !important;
+        text-align: left;
+        padding-left: 12px;
+    }
+    .txt1 {
+        color: black;
+        font-size: 30px !important;
+        /* font-weight: 800 !important; */
+    }
+    .txt3 {
+        font-size: 21px !important;
+        font-weight: bold;
+    }
+    .txtV1 {
+        font-size: 25px !important;
+    }
+    .txtV2 {
+        font-size: 15px !important;
+    }
+    .imageStarter {
+        width: 58% !important;
+        height: 29rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .imageStarter2 {
+        width: 70% !important;
+    }
+    .imageWidth {
+        width: 30% !important;
+    }
+    .imgWidth {
+        width: 60% !important;
+    }
+    .owl-carousel .owl-item img {
+        width: 100% !important;
+    }
+    .bg-Image {
+        height: 313px !important;
+        padding-top: 42px !important;
+    }
+    .img-responsive {
+        max-width: 193% !important;
+    }
+    .pricingTable .title {
+        font-size: 25px;
+        padding-top: 22px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin: 0 0 2px;
+    }
+    .pricingTable .price-value {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 50px;
+    }
+    .pd-T1 {
+        padding-top: 5rem !important;
+    }
+    /* .bg-overlay {
+    height: 850px;
+    width:130%;
+
+}*/
+    .bg-Image {
+        color: #fff;
+        height: 500px;
+        /* width: 130%; */
+        padding-top: 110px;
+    }
+    .background_layer {
+        height: 634px !important;
+    }
+    .background_layerOne {
+        height: 800px !important;
+    }
+    .background_layerTwo {
+        height: 930px !important;
+    }
+    .square_btn4 {
+        font-size: 12px !important;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .bg-overlay {
+        height: 1120px !important;
+        padding-top: 10px !important;
+    }
+    /* .background_layer {
+        height: 700px !important;
+    } */
+    .login-form {
+        margin-top: 20rem !important;
+        padding: 73px 0 0px !important;
+        padding: 64px 0 0px !important;
+    }
+    .form-control {
+        width: 85% !important;
+        height: 44px !important;
+        margin-left: 3rem !important;
+    }
+    .form-controler {
+        width: 39rem !important;
+    }
+    .login-form .btn, .login-form .btn:active {
+        font-size: 16px;
+        font-weight: bold;
+        border: none;
+        width: 57%;
+        margin-bottom: 20px;
+        margin-left: 10rem;
+    }
+    .padder {
+        padding-left: 2rem !important;
+    }
+    .padder1 {
+        margin-top: 2rem !important;
+    }
+    .padder2 {
+        margin-top: 0rem !important;
+    }
+    .padderL {
+        margin-left: 21rem !important;
+    }
+    .padderY {
+        margin-left: 12rem !important;
+    }
+    .txt {
+        font-size: 35px !important;
+    }
+    .txt2 {
+        font-size: 19px !important;
+    }
+    .txt1 {
+        font-size: 30px !important;
+    }
+    .txt3 {
+        font-size: 30px !important;
+    }
+    .txt5 {
+        font-size: 25px !important;
+    }
+    .txt6 {
+        padding-top: 1% !important;
+    }
+    .txt7 {
+        font-size: 26px !important;
+    }
+    .txt8 {
+        font-size: 26px !important;
+    }
+    .txtV1 {
+        font-size: 25px !important;
+    }
+    .txtV2 {
+        font-size: 15px !important;
+    }
+    .imageStarter {
+        width: 40% !important;
+        height: 31rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .imageStarter2 {
+        width: 70% !important;
+    }
+    .imageWidth {
+        width: 30% !important;
+    }
+    .imgWidth {
+        width: 60% !important;
+    }
+    .owl-carousel .owl-item img {
+        width: 100% !important;
+    }
+    .pricingTable .title {
+        font-size: 25px;
+        padding-top: 22px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin: 0 0 2px;
+    }
+    .pricingTable .price-value {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 50px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .login-form {
+        width: 30rem !important;
+    }
+    .login-form .avatar {
+        left: 100px !important;
+    }
+    .txt {
+        font-size: 35px !important;
+    }
+    .txt2 {
+        font-size: 17px !important;
+    }
+    .txt1 {
+        font-size: 30px !important;
+    }
+    .txt3 {
+        font-size: 30px !important;
+    }
+    .txt5 {
+        font-size: 25px !important;
+    }
+    .txt6 {
+        padding-top: 1% !important;
+    }
+    .txt7 {
+        font-size: 26px !important;
+    }
+    .txt8 {
+        font-size: 26px !important;
+    }
+    .txtV1 {
+        font-size: 26px !important;
+    }
+    .txtV2 {
+        font-size: 15px !important;
+    }
+    .form-controler {
+        width: 16rem;
+    }
+    .navbar li a, .navbar {
+        color: rgb(48, 47, 47) !important;
+        font-size: 10px !important;
+        transition: all 0.6s 0s;
+    }
+    /* .padderY{
+        margin-top:10rem
+    } */
+}
+
+@media only screen and (min-width: 992px) {
+    .form-controler {
+        width: 25rem;
+    }
+    .navbar li a, .navbar {
+        color: rgb(48, 47, 47) !important;
+        font-size: 17px !important;
+        transition: all 0.6s 0s;
+    }
+}
